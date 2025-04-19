@@ -14,7 +14,7 @@ const UncontrolledField = () => {
 
     return (
         <div>
-            <form >
+            <form onSubmit={handleSubmit}>
           <input ref={emailRef} type="email" name='email'  /> <br />
           <input ref={PasswordRef} type="Password" name='' /> <br />
            <input type="Submit" value='Submit' />
