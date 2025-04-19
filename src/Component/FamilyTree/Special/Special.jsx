@@ -3,7 +3,7 @@ import { AssetContext } from '../RootGandpa/FamilyTree';
 
 const Special= ({name ,asset}) => {
   const newAsset = useContext(AssetContext);
-  console.log(newAsset,'new fire')
+
     return (
         <div>
           <h3>{name}</h3>  
