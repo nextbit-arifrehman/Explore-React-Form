@@ -3,7 +3,7 @@ import Myself from '../MyFamily/Myself';
 import Brother from '../MyFamily/Brother';
 import Sister from '../MyFamily/Sister';
 
-const Father = () => {
+const Father = ({asset}) => {
     return (
         <div>
 
@@ -11,7 +11,7 @@ const Father = () => {
 
          <section className='flex'>
 
-          <Myself></Myself>
+          <Myself asset={asset}></Myself>
           <Brother></Brother>
           <Sister></Sister>
 

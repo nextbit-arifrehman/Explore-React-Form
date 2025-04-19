@@ -1,12 +1,12 @@
 import React from 'react';
 import Special from '../Special/Special';
 
-const Myself = () => {
+const Myself = ({asset}) => {
     return (
         <div>
             <h3>Myself</h3>
             <section>
- <Special name='Santiel'></Special>
+ <Special asset={asset} name='Santiel'></Special>
                 
 
             </section>

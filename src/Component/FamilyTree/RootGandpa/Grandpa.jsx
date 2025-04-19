@@ -4,16 +4,16 @@ import Uncle from './Uncle';
 import Aunt from './Aunt';
 import './FamilyTree.css';
 
-const Grandpa = () => {
+const Grandpa = ({asset}) => {
 
-    const asset ='diamond';
+ 
 
     return (
         <div>
             <h3>Grandpa</h3>
             <section className='flex'>
-                <Father></Father>
-                <Uncle></Uncle>
+                <Father asset={asset}></Father>
+                <Uncle asset={asset}></Uncle>
                 <Aunt></Aunt>
             </section>
         </div>
